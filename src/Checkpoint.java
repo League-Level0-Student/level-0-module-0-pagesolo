@@ -14,10 +14,10 @@ JOptionPane.showMessageDialog(null, "That's my favorite color too!");
 Robot a=new Robot();
 a.penDown();
 
-for (int i = 0; i < 3.length; i++) {
+
 a.move(200);
 a.turn(120);	
-}
+
 	
 	
 	
