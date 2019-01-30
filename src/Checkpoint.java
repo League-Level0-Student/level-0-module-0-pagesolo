@@ -4,26 +4,33 @@ public class Checkpoint {
 public static void main(String[] args) {
 
 	
-	
-	
-	
-	
-	JOptionPane.showInputDialog("What's your favorite color?");
-JOptionPane.showMessageDialog(null, "That's my favorite color too!");
-
-Robot a=new Robot();
-a.penDown();
-
-
-a.move(200);
-a.turn(120);	
 
 	
 	
+	
+	String answer = JOptionPane.showInputDialog("What's your favorite MHA character?");
+
+	JOptionPane.showMessageDialog(null, answer + " is favorite my character too!");
+
+	
+	Robot a = new Robot();
+	a.penDown();
+	a.setSpeed(255);
+	a.turn(60);
+	a.move(180);
+	a.turn(120);
+	a.move(180);
+	a.turn(120);
+	a.move(180);
+			
+			
+
+	
+}
 	
 	
 	
 	
 	
 }
-}
+
